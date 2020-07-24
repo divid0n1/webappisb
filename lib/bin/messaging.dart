@@ -46,3 +46,13 @@ class _MessagingState extends State<Messaging> {
     subtitle: Text(message.body),
   );
 }
+
+//
+//import 'package:flutter/cupertino.dart';
+//
+//class Message extends StatelessWidget {
+//  @override
+//  Widget build(BuildContext context) {
+//    return Container(child:Text("Hello"));
+//  }
+//}

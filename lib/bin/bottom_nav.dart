@@ -14,7 +14,7 @@ class BottomNavi extends StatefulWidget {
 
 class _BottomNaviState extends State<BottomNavi> {
 //  final flutterWebviewPlugin = new FlutterWebviewPlugin();
-  int _currentIndex = 3;
+  int _currentIndex = 0;
   final tabs = [
     WebHome(),
     WebSearch(),
@@ -37,19 +37,19 @@ class _BottomNaviState extends State<BottomNavi> {
           BottomNavigationBarItem(
               icon: Icon(Icons.home),
               title: Text('Home'),
-              backgroundColor: Colors.transparent),
+              backgroundColor: Colors.redAccent),
           BottomNavigationBarItem(
               icon: Icon(Icons.search),
               title: Text('Search'),
-              backgroundColor: Colors.transparent),
+              backgroundColor: Colors.redAccent),
           BottomNavigationBarItem(
               icon: Icon(Icons.info),
               title: Text('Info'),
-              backgroundColor: Colors.transparent),
+              backgroundColor: Colors.redAccent),
           BottomNavigationBarItem(
               icon: Icon(Icons.contacts),
               title: Text('Contact'),
-              backgroundColor: Colors.transparent),
+              backgroundColor: Colors.redAccent),
         ],
         onTap: (index){
           setState(() {
